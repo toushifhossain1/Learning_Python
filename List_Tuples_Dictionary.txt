@@ -1,0 +1,12 @@
+For list : myList =  [a,b,c]
+List items are ordered, changeable, and allow duplicate values.
+
+
+for tuples : myTuple =  (a,b,c) 
+A tuple is a collection which is ordered and unchangeable.
+
+for dictionary: myDictionary = { a=val1, b= val2, c=val3 }
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+for set : mySet = { a,b,c }
+A set is a collection which is unordered, unchangeable*, and unindexed
