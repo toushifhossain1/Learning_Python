@@ -24,3 +24,7 @@ values = ["Ecliple", "Atom", "Pycharm"]
 ideForLang = dict(zip(keys, values))
 print("List as a dictionary: ")
 print(ideForLang)
+
+# Access values from a dictionary
+# Use the key to access the values
+print(PhoneBook["Toushif"])
