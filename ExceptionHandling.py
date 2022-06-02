@@ -18,3 +18,10 @@ else:
     print("The else block is working as there is no error to be handled")
 finally:
     print("This is the finally block")  # This will work no matter what
+
+# To incude multiple case in one exception:
+# except (*exception1*,*exception2*)
+try:
+    sum = num1+num2
+except(NameError, TypeError):
+    print("There are multiple errors")
