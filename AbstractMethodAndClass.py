@@ -6,7 +6,7 @@
 from abc import ABC, abstractmethod
 
 
-class shape (ABC):  # ABC is the abctract class parameter
+class shape (ABC):  # ABC is the abctract base class parameter
     def __init__(self, dim1, dim2):
         self.dim1 = dim1
         self.dim2 = dim2
